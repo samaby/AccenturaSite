@@ -16,47 +16,47 @@ export default function FooterSmall(props) {
             <div className="w-full md:w-4/12 px-4">
               <div className="text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left">
                 Copyright © {new Date().getFullYear()}{" "}
-                <a
+                <p
                   href="https://www.creative-tim.com?ref=nnjs-footer-small"
                   className="text-white hover:text-blueGray-300 text-sm font-semibold py-1"
                 >
                   Creative Tim
-                </a>
+                </p>
               </div>
             </div>
             <div className="w-full md:w-8/12 px-4">
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
-                  <a
+                  <p
                     href="https://www.creative-tim.com?ref=nnjs-footer-small"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     Creative Tim
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a
+                  <p
                     href="https://www.creative-tim.com/presentation?ref=nnjs-footer-small"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     About Us
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a
+                  <p
                     href="http://blog.creative-tim.com?ref=nnjs-footer-small"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     Blog
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a
+                  <p
                     href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-small"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     MIT License
-                  </a>
+                  </p>
                 </li>
               </ul>
             </div>

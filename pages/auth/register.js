@@ -91,13 +91,13 @@ export default function Register() {
                       />
                       <span className="ml-2 text-sm font-semibold text-blueGray-600">
                         I agree with the{" "}
-                        <a
+                        <p
                           href="#pablo"
                           className="text-lightBlue-500"
                           onClick={(e) => e.preventDefault()}
                         >
                           Privacy Policy
-                        </a>
+                        </p>
                       </span>
                     </label>
                   </div>

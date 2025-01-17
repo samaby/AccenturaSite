@@ -27,7 +27,7 @@ const IndexDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        Demo Pages
+        Menu
       </a>
       <div
         ref={popoverDropdownRef}
@@ -41,7 +41,7 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Admin Layout
+          Admin
         </span>
         <Link href="/admin/dashboard">
           <p
@@ -63,33 +63,14 @@ const IndexDropdown = () => {
             Settings
           </p>
         </Link>
-        <Link href="/admin/tables">
-          <p
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Tables
-          </p>
-        </Link>
-        <Link href="/admin/maps">
-          <p
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Maps
-          </p>
-        </Link>
+
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
           className={
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Auth Layout
+          Auth
         </span>
         <Link href="/auth/login">
           <p
@@ -111,8 +92,8 @@ const IndexDropdown = () => {
             Register
           </p>
         </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
+        {/* <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" /> */}
+        {/* <span
           className={
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
@@ -138,7 +119,7 @@ const IndexDropdown = () => {
           >
             Profile
           </p>
-        </Link>
+        </Link> */}
       </div>
     </>
   );
